@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Chatbot
+comment1.params=
+comment1.target=java.lang.String\ getGreeting()
+comment2.params=statement
+comment2.target=java.lang.String\ getResponse(java.lang.String)
+comment3.params=statement
+comment3.target=java.lang.String\ transformIWantToStatement(java.lang.String)
+comment3.text=\n\ Take\ a\ statement\ with\ "I\ want\ to\ <something>."\ and\ transform\ it\ into\ \n\ "What\ would\ it\ mean\ to\ <something>?"\n
+comment4.params=statement
+comment4.target=java.lang.String\ transformIWantStatement(java.lang.String)
+comment4.text=\n\ Take\ a\ statement\ with\ "I\ want\ <something>."\ and\ transform\ it\ into\ \n\ "Would\ you\ really\ be\ happy\ if\ you\ had\ <something>?"\n
+comment5.params=statement
+comment5.target=java.lang.String\ transformYouMeStatement(java.lang.String)
+comment5.text=\n\ Take\ a\ statement\ with\ "you\ <something>\ me"\ and\ transform\ it\ into\ \n\ "What\ makes\ you\ think\ that\ I\ <something>\ you?"\n
+comment6.params=statement
+comment6.target=java.lang.String\ transformIYouStatement(java.lang.String)
+comment6.text=\n\ Take\ a\ statement\ with\ "I\ <something>\ you"\ and\ transform\ it\ into\ \n\ "Why\ do\ you\ <something>\ me?"\n
+comment7.params=statement\ goal\ startPos
+comment7.target=int\ findKeyword(java.lang.String,\ java.lang.String,\ int)
+comment8.params=statement\ goal
+comment8.target=int\ findKeyword(java.lang.String,\ java.lang.String)
+comment9.params=
+comment9.target=java.lang.String\ getRandomResponse()
+numComments=10
